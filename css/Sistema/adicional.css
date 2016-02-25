@@ -1,0 +1,25 @@
+﻿/* ESTILOS ADICIONALES Y/O COMPLEMENTARIOS PARA LA APLICACIÓN */
+
+/* TIPOS DE CERTIFICADOS */
+.tipoCO
+{
+    cursor: pointer;
+    border-radius: 5px;
+    border: solid 1px rgba(31, 83, 21, 0);
+    box-shadow: inset 0 1px 5px rgba(0,0,0,0.15),transparent 0 0 0;
+}
+.tipoCO:hover
+{
+    cursor: pointer;
+    border-radius: 5px;
+    border: solid 1px #90d25e;
+    box-shadow: inset 0 1px 5px rgba(49, 134, 27, 0.71),rgba(133, 71, 71, 0.15) 0 0 0;
+}
+
+.tipoCOSelect
+{
+    cursor: pointer;
+    border-radius: 5px;
+    border: solid 1px rgba(31, 83, 21, 0.72);
+    box-shadow: inset 0 1px 5px rgba(49, 134, 27, 0.71),rgba(133, 71, 71, 0.15) 0 0 0;
+}

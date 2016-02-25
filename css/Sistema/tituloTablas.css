@@ -1,0 +1,80 @@
+﻿.body
+{
+    background:#e6e8eb;
+}
+
+table.dataTable thead tr
+{
+    color:#18597d;font-size:14px;font-weight:bolder;text-transform:uppercase;text-align:center;
+    }
+    
+table.dataTable thead tr
+{
+    background: #cecece;
+	background: -moz-linear-gradient(top, #cecece 0%, #f6f6f6 50%, #cecece 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, #cecece), color-stop(50%, #f6f6f6), color-stop(100%, #cecece));
+	background: -webkit-linear-gradient(top, #cecece 0%, #f6f6f6 50%, #cecece 100%);
+	background: -o-linear-gradient(top, #cecece 0%, #f6f6f6 50%, #cecece 100%);
+	background: -ms-linear-gradient(top, #cecece 0%, #f6f6f6 50%, #cecece 100%);
+	background: linear-gradient(to bottom, #cecece 0%, #f6f6f6 50%, #cecece 100%);
+    }
+    
+table.dataTable thead tr .last, .datagrid3 thead .last{border-right:0px;}
+
+table.dataTable thead tr th{border-right:1px solid #408ea6;padding:9px 10px 9px 10px;vertical-align:middle;}
+
+table.dataTable thead tr th:last-child{border-right:0px solid #408ea6;padding:4px 10px 0px 10px;vertical-align:middle;}
+.datagrid3 thead td span{
+	float:left;
+	width:95%;
+}
+
+table.dataTable thead tr .order{
+	
+	float:right;
+	width:15px;
+	height:30px;
+	margin:0px 10px 0px 0px;
+	position: relative;
+
+}
+
+table.dataTable thead tr .order-up-down{
+	float:right;
+	width:15px;
+	height: 30px;
+	margin:-3px 10px 0px 0px;
+	position: relative;
+}
+table.dataTable thead tr .up, #grid-head2 .down{
+	
+	background:url('../images/cont/img-up-down.png') no-repeat left top;
+	-moz-background-size: 15px 36px;
+	-o-background-size: 15px 36px;
+	-webkit-background-size:15px 36px;
+	background-size: 15px 36px;
+	/*margin:0px;*/
+	padding-left:15px;
+	width:15px;
+	height:12px;
+	cursor:pointer;
+}
+table.dataTable thead tr .down{background-position: 100% 0px;}
+table.dataTable thead tr .up{background-position: 100% 0px;}
+
+/*--- cambiar el color del icono por blanco --*/
+table.dataTable tbody .gray:hover #icon-25,table.dataTable tbody .white:hover #icon-25{background-image:url('../images/icons/25/icons-white.png')!important;}
+table.dataTable tbody .gray:hover #icon-47,table.dataTable tbody .white:hover #icon-47{background-image:url('../images/icons/47/icons-white.png')!important;}
+table.dataTable tbody .gray #icon-25:hover,table.dataTable tbody .white #icon-25:hover{background-image:url('../images/icons/25/icons-green.png')!important;}
+table.dataTable tbody .gray #icon-47:hover,table.dataTable tbody .white #icon-47:hover{background-image:url('../images/icons/47/icons-green.png')!important;}
+
+.datagrid3-body td:hover{background:#f2f2f0;}
+/*--- cambiar el color del icono por blanco --*/
+.datagrid3 .gray:hover #icon-25,table.dataTable tbody .white:hover #icon-25{background-image:url('../images/icons/25/icons-white.png')!important;}
+.datagrid3 .gray:hover #icon-47,table.dataTable tbody .white:hover #icon-47{background-image:url('../images/icons/47/icons-white.png')!important;}
+.datagrid3 .gray #icon-25:hover,table.dataTable tbody .white #icon-25:hover{background-image:url('../images/icons/25/icons-green.png')!important;}
+.datagrid3 .gray #icon-47:hover,table.dataTable tbody .white #icon-47:hover{background-image:url('../images/icons/47/icons-green.png')!important;}
+
+table.dataTable tbody tr a{text-decoration:underline;color:#000000;}
+table.dataTable tbody tr:hover a{color:#ffffff;}
+table.dataTable tbody tr:hover a:hover{color:#85c555;}
